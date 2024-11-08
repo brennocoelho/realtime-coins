@@ -1,4 +1,4 @@
-import { CurrencyList } from "./Types.ts"
+import { CurrencyList } from "./Types"
 
 export const Currencies: CurrencyList = {
     BRL: { 
