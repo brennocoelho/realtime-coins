@@ -1,0 +1,13 @@
+{
+  "tasks": {
+    "dev": "deno run --watch --allow-net --node-modules-dir --allow-read --allow-write --allow-env --allow-sys --allow-run server.ts"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1",
+    "@types/express": "npm:@types/express@^5.0.0",
+    "@types/puppeteer": "npm:@types/puppeteer@^7.0.4",
+    "express": "npm:express@^4.21.1",
+    "puppeteer": "npm:puppeteer@^23.7.0"
+  },
+  "nodeModulesDir": true
+}
