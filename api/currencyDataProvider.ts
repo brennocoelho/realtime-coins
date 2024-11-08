@@ -1,4 +1,4 @@
-import { DataProviderURL } from "./Types.ts"
+import { DataProviderURL } from "./Types"
 
 export default function currencyDataProvider(baseCurrency: string, targetCurrency: string): DataProviderURL{
 

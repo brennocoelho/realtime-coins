@@ -1,7 +1,7 @@
 import { Router } from "express"
-import { getCurrencyRate } from "./getData.ts"
-import { Currencies } from "./Currencies.ts"
-import currencyDataProvider from './currencyDataProvider.ts'
+import { getCurrencyRate } from "./getData"
+import { Currencies } from "./Currencies"
+import currencyDataProvider from './currencyDataProvider'
 
 const router = Router();
 

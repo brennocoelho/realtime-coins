@@ -1,5 +1,5 @@
 import puppeteer, { Browser } from "puppeteer"
-import { ScrapingParams, Currency } from './Types.ts'
+import { ScrapingParams, Currency } from './Types'
 
 export async function getCurrencyRate(params: ScrapingParams): Promise<string> {
     const { baseCurrency, targetCurrency, URLprovider } = params

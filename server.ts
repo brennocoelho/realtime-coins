@@ -1,5 +1,5 @@
 import express from "express";
-import APIRoutes from "./api/routes.ts"; // Importa as rotas
+import APIRoutes from "./api/routes"; // Importa as rotas
 
 const app = express()
 
